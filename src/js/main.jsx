@@ -9,10 +9,10 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Home from './components/Home';
+import Panel from './pages/Panel';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Panel/>
   </React.StrictMode>,
 )
